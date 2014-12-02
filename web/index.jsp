@@ -1,3 +1,4 @@
+<%@ page import="java.util.Date" %>
 <%--
   Created by IntelliJ IDEA.
   User: liujie
@@ -8,9 +9,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title></title>
+    <title>WebDemo</title>
   </head>
   <body>
-
+    现在时间是：
+    <%out.println(new Date());%>
   </body>
 </html>
